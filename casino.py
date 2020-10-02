@@ -13,7 +13,7 @@ while ContinueLaPartie==True:
   else:
     NbrMise=-1
     while NbrMise<0 or NbrMise>49 :
-      NbrMise=input("veuillez tapez le nombre que vous voulez misez entre (0 et 49):")
+      NbrMise=input("Veuillez tapez le nombre que vous voulez misez entre (0 et 49)  :")
       try:
         NbrMise=int(NbrMise)
       except:
