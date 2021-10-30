@@ -10,7 +10,8 @@ while ContinueLaPartie==True:
   try:
     argent=int(argent)
   except:
-    print("Erreur!")
+    print("Erreur! Veuillez entrer un nombre entier")
+    continue
   else:
     NbrMise=-1
     while NbrMise<0 or NbrMise>49 :
